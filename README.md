@@ -1,16 +1,12 @@
 # megahelloworld
-MEGA HELLO WORLD IN RUS &amp; ENG!
+MEGA HELLO WORLD IN 6 LANGUAGES!
 
-# Install:
-npm i megahelloworld
 
 # Using:
-```javascript
-let helloworld = require("megahelloworld")
+```js
+let helloworld = require("megahelloworld");
 
-let { text, rusText } = await helloworld() 
+let { text, rusText, ukText, arabText, jaText, kzText } = helloworld();
 
-console.log(text + ` ` + rusText) // consoling english and russian hello world 
+console.log(`EN: ${text}, RU: ${rusText}, UK: ${ukText}, ARAB: ${arabText}, JA: ${jaText}, KZ: ${kzText}`);
 ```
-
-Need help? Write him: https://vk.com/tailsjs
